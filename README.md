@@ -4,4 +4,4 @@
 Projeto desenvolvido na formação React Developer da Rocketseat (Desafio 01).
 
 - **Wireframe e Style Guide** disponíveis [aqui (Figma)](https://www.figma.com/file/0n0zDN7zbzhRbaEO74Xesx/ToDo-List/duplicate). 
-- **Deploy do Projeto** em [https://todo-dun-eight-90.vercel.app/](https://https://todo-dun-eight-90.vercel.app//).   
+- **Deploy do Projeto** em [https://todo-dun-eight-90.vercel.app/](https://todo-dun-eight-90.vercel.app/).   
