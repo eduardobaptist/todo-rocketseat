@@ -1,0 +1,101 @@
+.taskContainer {
+  background: var(--gray-500);
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  min-height: 4.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-weight: normal;
+  padding: 1rem 1rem;
+  max-width: 46rem;
+}
+
+.taskContainer + .taskContainer {
+  margin-top: 0.75rem;
+}
+
+.deleteIconContainer {
+  padding: 0 0.3125rem;
+}
+
+.deleteIcon {
+  width: 0.75rem;
+  height: 0.875rem;
+  color: var(--gray-300);
+  margin-left: 1.125rem;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+.deleteIcon:hover {
+  color: var(--danger);
+}
+
+.main, .mainDone {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.main p {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--gray-100);
+  word-wrap:break-word;
+
+  transition: color 0.1s, text-decoration 0.1s;
+}
+
+.main button {
+  background: transparent;
+  border: 2px solid var(--blue);
+  outline: 0;
+  border-radius: 50%;
+  height: 1.0625rem;
+  width: 1.0625rem;
+  color: transparent;
+  cursor: pointer;
+
+  transition: color 0.1s, background-color 0.1s;
+}
+
+.main button:hover {
+  border: 2px solid var(--blue-dark);
+}
+
+.mainDone p {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--gray-300);
+  text-decoration: line-through;
+
+  transition: color 0.1s, text-decoration 0.1s;
+}
+
+.mainDone button {
+  background: var(--purple-dark);
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  height: 1.0625rem;
+  width: 1.0625rem;
+  color: var(--gray-100);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: color 0.1s, background-color 0.1s;
+}
+
+.mainDone button:hover {
+  background: var(--purple);
+}
+
+.mainDone button svg {
+  width: 0.8125rem;
+  height: 0.6875rem;
+  padding: 0;
+}
