@@ -53,8 +53,8 @@
   border: 2px solid var(--blue);
   outline: 0;
   border-radius: 50%;
-  min-height: 1.0625rem;
-  min-width: 1.0625rem;
+  height: 1.0625rem;
+  width: 1.0625rem;
   color: transparent;
   cursor: pointer;
 

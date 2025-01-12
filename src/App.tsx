@@ -13,8 +13,8 @@ function App() {
 
   function handleFormSubmit(event: FormEvent) {
     event.preventDefault();
-    setTasks([
-      ...tasks,
+    setTasks((state) => [
+      ...state,
       {
         description: newTask,
         isDone: false,
